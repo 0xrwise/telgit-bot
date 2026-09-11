@@ -1,0 +1,5 @@
+# Opsional: enkripsi token GitHub di penyimpanan lokal.
+# Jika gagal terinstall (misal di Termux tanpa wheel prebuilt), lewati saja —
+# bot tetap jalan, hanya saja token disimpan tanpa enkripsi (masih lokal,
+# tidak dikirim ke mana pun).
+cryptography==43.0.1
