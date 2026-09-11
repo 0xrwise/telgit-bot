@@ -50,7 +50,7 @@ Bot ini murni Python, jadi bisa dijalankan di:
 
 ### 2. Download Project Ini
 ```bash
-git clone https://github.com/username-kamu/telgit-bot.git
+git clone https://github.com/0xrwise/telgit-bot.git
 cd telgit-bot
 ```
 *(Ganti `username-kamu` setelah kamu upload project ini ke GitHub-mu sendiri)*
