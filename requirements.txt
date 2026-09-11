@@ -1,4 +1,10 @@
+# Dependency inti (wajib, ringan, aman di semua platform termasuk Termux)
 python-telegram-bot[job-queue]==21.6
 PyGithub==2.4.0
 python-dotenv==1.0.1
-cryptography==43.0.1
+
+# Catatan: `cryptography` (untuk enkripsi token) SENGAJA dipisah ke
+# requirements-optional.txt karena di sebagian environment (Termux dengan
+# Python versi sangat baru) ia butuh Rust compiler untuk build dari source
+# dan bisa gagal install. Bot tetap berfungsi normal tanpanya (lihat
+# storage.py — otomatis fallback jika library ini tidak ada).
